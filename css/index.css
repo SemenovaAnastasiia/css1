@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Spirax');
+
+:root {
+    font-size: 20px;
+    font-family: 'Spirax', cursive;
+}
+
+
+body {
+    font-size: 2em;
+}
+h1 {
+    font-size: 2rem;
+}
+
+#chosen {
+    color: #f0f409;
+}
+
+.brown {
+    color: brown;
+}
+h1, p {
+    background-color: grey;
+}
+div > p {
+   background-color: red; 
+}
+div + p {
+    border: 5px solid green;
+}
+
+div ~ p {
+    font-style: italic;
+}
+
+p:hover {
+    font-weight: bold;
+}
+
+p::before {
+    content: '<';
+    font-family: monospace;
+}
+
+p::after {
+    content: '>';
+    font-family: monospace;
+}
